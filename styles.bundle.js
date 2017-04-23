@@ -1,6 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 15:
+/***/ 17:
 /***/ (function(module, exports) {
 
 /*
@@ -57,16 +57,16 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 193:
+/***/ 194:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(262);
+var content = __webpack_require__(263);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(529)(content, {});
+var update = __webpack_require__(530)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -84,10 +84,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 261:
+/***/ 262:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(17)();
 // imports
 
 
@@ -99,22 +99,22 @@ exports.push([module.i, ".mat-elevation-z0{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0
 
 /***/ }),
 
-/***/ 262:
+/***/ 263:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)();
+exports = module.exports = __webpack_require__(17)();
 // imports
-exports.i(__webpack_require__(261), "");
+exports.i(__webpack_require__(262), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n.body-color {\n\tbackground: #3D00A5 !important;\n\tmargin: 0px;\n}\n\n.light-green {\n\tbackground: #8FFFEC !important;\n}\n\n.btn-text-blue {\n\tcolor: #3D00A5 !important;\n}\n\n.mat-list .mat-list-item.mat-2-line .mat-list-item-content, .mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content {\n    height: 100px !important;\n}\n\n.mat-slider-thumb {\n    position: absolute;\n    right: -10px;\n    bottom: -25px !important;\n    box-sizing: border-box;\n    width: 50px !important;\n    height: 50px !important;\n    border: 3px solid transparent;\n    border-radius: 50%;\n    -webkit-transform: scale(.7);\n            transform: scale(.7);\n    transition: background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);\n    transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1);\n    transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);\n}\n\n.mat-primary .mat-slider-thumb, .mat-primary .mat-slider-thumb-label, .mat-primary .mat-slider-track-fill {\n    background-color: white !important;\n}\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n.body-color {\r\n\tbackground: #3D00A5 !important;\r\n\tmargin: 0px;\r\n}\r\n\r\n.light-green {\r\n\tbackground: #8FFFEC !important;\r\n}\r\n\r\n.btn-text-blue {\r\n\tcolor: #3D00A5 !important;\r\n}\r\n\r\n.mat-list .mat-list-item.mat-2-line .mat-list-item-content, .mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content {\r\n    height: 100px !important;\r\n}\r\n\r\n.mat-slider-thumb {\r\n    position: absolute;\r\n    right: -10px;\r\n    bottom: -25px !important;\r\n    box-sizing: border-box;\r\n    width: 50px !important;\r\n    height: 50px !important;\r\n    border: 3px solid transparent;\r\n    border-radius: 50%;\r\n    -webkit-transform: scale(.7);\r\n            transform: scale(.7);\r\n    transition: background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);\r\n    transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1);\r\n    transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);\r\n}\r\n\r\n.mat-primary .mat-slider-thumb, .mat-primary .mat-slider-thumb-label, .mat-primary .mat-slider-track-fill {\r\n    background-color: white !important;\r\n}\r\n\r\n.pageLoading{\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(0, 0, 0, 0.78);\r\n}\r\n\r\n\r\n\r\n.pageLoading .loading-containetr {\r\n    position: fixed;\r\n    z-index: 999;\r\n    height: 200px;\r\n    width: 300px;\r\n    overflow: show;\r\n    margin: auto;\r\n    top: 0;\r\n    left: 0;\r\n    bottom: 0;\r\n    right: 0;\r\n    background: #3d00a5;\r\n    border-radius: 20px;\r\n}\r\n.pageLoading .loading-containetr:before {\r\n    content: '';\r\n    display: block;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0,0,0,0.3);\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 529:
+/***/ 530:
 /***/ (function(module, exports) {
 
 /*
@@ -367,13 +367,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 533:
+/***/ 534:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(193);
+module.exports = __webpack_require__(194);
 
 
 /***/ })
 
-},[533]);
+},[534]);
 //# sourceMappingURL=styles.bundle.js.map
